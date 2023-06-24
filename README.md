@@ -2,7 +2,7 @@
 
 ## About
 
-This is a modern take on the classic Atari Pong game with more advanced collision handling software and modern game mechanics.
+This is a modern take on the classic Atari Pong game with more advanced collision handling software and modern game mechanics using the JavaScript library p5.js.
 
 ### Controls
 
