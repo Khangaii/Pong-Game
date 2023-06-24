@@ -1,16 +1,7 @@
 Window.console = console || {warn: function(){}}
 
-/*
-  GAME MODE
-  No  Ball    Paddle
-  0   default default
-  1   slow    fast
-  2   fast    fast
-  3   slow    slow
-  4   fast    slow
-*/
 const FRAME_RATE = 60;
-const GAME_MODE = 0, MAX_SCORE = 11;
+const MAX_SCORE = 11;
 const BOUNCESFX_NUM = 5, VICTORY_MUSIC_NUM = 4;
 const SELF = 0, OPPONENT = 1;
 
