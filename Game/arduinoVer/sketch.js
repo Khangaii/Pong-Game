@@ -205,19 +205,20 @@ function keyTyped() {
   }
 }
 
+/**
+ * return the second argument if it is defined, otherwise return the first argument
+ * @param {*} var1 - first argument
+ * @param {*} var2 - second argument
+ * @returns {*} the second argument if it is defined, otherwise the first argument
+ */
 function getDefined(var1, var2) {
-  /**
-   * return the first defined variable
-   */
-  
   return (var2 === undefined) ? var1 : var2;
 }
 
+/**
+ * Toggle the pause state of the game
+ */
 function togglePause() {
-  /**
-   * Toggle the pause state of the game
-   */
-
   game.paused = !game.paused;
 }
 
