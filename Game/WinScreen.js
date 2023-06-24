@@ -81,12 +81,12 @@ class WinScreen {
     pg.textAlign(CENTER);
     pg.textFont(this.textFont);
 
-    pg.text("플레이어 " + this.winner + " 승리!", this.textPos.x, this.textPos.y);
+    pg.text("Player " + this.winner + " Wins!", this.textPos.x, this.textPos.y);
     pg.text(this.points[0], this.textPos.x - pg.width/15, this.textPos.y + pg.height/10);
     pg.text(this.points[1], this.textPos.x + pg.width/15, this.textPos.y + pg.height/10);
 
     pg.textSize(this.textSize/2);
-    pg.text("Shift+R로 리스타트", this.textPos.x, this.textPos.y + pg.height/4);
+    pg.text("Restart with Shift+R", this.textPos.x, this.textPos.y + pg.height/4);
   }
 
   /**
